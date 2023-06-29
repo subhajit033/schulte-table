@@ -1,7 +1,13 @@
-function App() {
+import React from 'react'
+import Logo from './components/Logo'
+import Table from './components/Table'
+const App = () => {
   return (
-    <h1>Hello world</h1>
-  );
+    <>
+    <Logo />
+    <Table />
+    </>
+  )
 }
 
-export default App;
+export default App
